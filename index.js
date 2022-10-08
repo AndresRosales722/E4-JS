@@ -21,15 +21,11 @@ const error = document.querySelector('small')
        <section class="info">
          <span class="name">${data.name}</span>
          <div class="cont-info">
-             <span>Ataque</span>
-             <span>Defensa</span>
-             <i class="fa-sharp fa-solid fa-ruler-triangle"></i>
              <span>Peso</span>
+             <span>Altura</span>
          </div>
    
          <div class="cont-info">
-             <span>12</span>
-             <span>12</span>
              <span>${data.height / 10} m</span>
              <span>${data.weight / 10} kg</span>
          </div>
